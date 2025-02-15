@@ -1,2 +1,3 @@
 # DSA
-This is the DSA with C++ learning repository.
+DSA learning journery!  
+Start Date: 15-Feb-2025
