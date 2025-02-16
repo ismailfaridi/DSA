@@ -1,0 +1,41 @@
+Asymptotic Notation:
+1. Big O: Upper bound (worst-case complexity)
+2. Big Ω: Lower bound (best-case complexity)
+3. Big Θ: Tight bound (average-case complexity)
+
+Time Complexity
+- Isn't time taken (old window and new macbook).
+- Rate of which the time taken increases w.r.t the input size.
+- Generally written in Big O notation.
+
+    Guidelines for computing TC:
+    - TC for worst case scenerio.
+    - Avoid constants.
+    - Avoid small values.
+
+    Example 1:
+    for(i=0; i<N, i++){      // N times
+        for(j=0; j<N, j++){  // N times
+            // constant
+        }  
+    }
+                             // O(N^2)
+
+    Example 2:
+    for(i=0; i<N, i++){
+        for(j=0; j<=i, j++){
+            // constant
+        }  
+    }
+
+    i=0 [j=0]        1 time
+    i=1 [j=0,1]      2 time
+    i=n [j=0,...,n]  n time
+                     1+2+...+n => n(n+1)/2 => O(n^2)
+
+Space Complexity:
+- Memory space that program take.
+- Input Space + Auxiliary Space.
+  - Input Space → The memory required to store the input itself.
+  - Auxiliary Space → The extra memory required to solve the problem (excluding input storage).
+- Written in Big O notation.
