@@ -1,6 +1,7 @@
 #include <bits/stdc++.h> // include every standard library
 using namespace std;
 
+/*
 int main()
 {
     // # IO
@@ -13,7 +14,7 @@ int main()
     // cout << "You enter: " << n;
 
 
-    // # Data types: int, long, long long, float, double, string (getline), char, bool, ...
+    // # Data types: short, int, long, long long, float, double, string (getline), char, bool, ...
 
     // string s1, s2;
     // cin >> s1 >> s2; // separate the space
@@ -111,5 +112,85 @@ int main()
 
 
     // # for loop
+    // for(int i = 0; i < 5; i++){
+    //     cout << "Ismail" << endl;
+    // }
+
+    // # while loop
+    // short x = 0;
+    // while(x < 5){
+    //     cout << "Ismail" << endl;
+    //     x++;
+    // }
+
+    // # do-while loop
+    // short x = 0;
+    // do{
+    //     cout << "Ismail" << endl;
+    //     x++;
+    // } while(x < 5);
+
+    return 0;
+}
+*/
+
+// # Functions (modularise code, increase readability, reusable)
+
+// $ Function Overriding
+void printName(){ // void -> doesn't return anything
+    cout << "Ismail" << endl;
+}
+void printName(string x){
+    cout << x << endl;
+}
+
+int sum(int a, int b){
+    return a + b;
+}
+
+// $ Pass by value
+void passByValue(int x){
+    x += 5;
+}
+
+// $ Pass by reference
+void passByRef(int &x){
+    x += 5;
+}
+
+// pointer
+void ptrFunc(int *x){
+    *x += 5;
+}
+
+void printArray(int x[], int num){
+    for(int i = 0; i < num; i++)
+        cout << x[i] << endl;
+}
+
+int main()
+{
+    printName();
+    string x = "Alan Turing";
+    printName(x);
+    int a = 5, b = 10;
+    cout << sum(a, b) << endl;
+
+    cout << min(a, b) << endl; // math.h
+
+    int num = 15;
+    passByValue(num); // copy sent
+    cout << "After pass by value: " << num << endl;
+
+    passByRef(num); // address sent
+    cout << "After pass by reference: " << num << endl;
+
+    ptrFunc(&num); // mem address sent
+    cout << "After ptr function: " << num << endl;
+
+    const int max = 3;
+    int arr[max]={55,66,77};
+    printArray(arr, max);
+
     return 0;
 }
