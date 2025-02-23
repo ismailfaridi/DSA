@@ -2,11 +2,13 @@
 using namespace std;
 
 /*
+-----------------------------------------
 Standard Template Library (STL)
-1. Containers
+1. Containers: vector, queue, stack, set
 2. Algorithm
 3. Functions
 4. Iterators
+-----------------------------------------
 */
 
 /*
@@ -39,8 +41,75 @@ int main()
 
 // 🔥CONTAINERS🔥
 
-// # Vector: vector is a dynamic array with the ability to resize itself automatically when an element is inserted or deleted.
+/*
+Array is static stored in stack, we can't increase it's size after declare.
+
+# Vector
+- Vector is a dynamic array stored in heap with the ability to resize itself automatically when an element is inserted or deleted.
+- 0 based indexing.
+- #include <vector>
+- Vector Functions: size, capacity, emplace_back, push_back, pop_back, front, back, at
+
++ size(): no of elements in array.
++ capacity(): how many elements the vector can hold before it needs to reallocate additional memory. When capacity reaches it double (x2) its capacity.
+*/
+
 #include <vector>
+
+/*
+int main()
+{
+    // vector<int> vec1; // size 0
+    // cout << "Size: " << vec1.size() << endl;
+
+    // vector<int> vec2 = {1, 2, 3}; // size & element 3
+    // cout << "Size: " << vec2.size() << endl;
+    // cout << "Element: " << vec2[0] << endl;
+
+    // vector<int> vec3(10, 0); // size 10 & all initalized to 0
+    // cout << "Size: " << vec3.size() << endl;
+    // cout << "Element: " << vec3[0] << endl;
+
+    vector<char> vec = {'A', 'B', 'C'};
+
+    // Iterator
+    for (char i : vec) // for each loop
+    {
+        cout << i << " ";
+    }
+
+    // Vector Functions: size, push_back, pop_back, front, back, at
+    cout << "\nSize: " << vec.size() << endl;
+
+    vec.push_back('D');
+    cout << vec[3] << endl;
+    cout << "Size: " << vec.size() << endl;
+
+    vec.pop_back(); // delete last element in vector
+    cout << "Size: " << vec.size() << endl;
+
+    cout << vec.front() << endl;
+    cout << vec.back() << endl;
+    cout << vec.at(1) << endl;
+
+    // Size and Capacity
+    cout << "size and capacity\n";
+    vector<int> v;
+
+    cout << "size = " << v.size() << endl;
+    cout << "capacity =" << v.capacity() << endl;
+
+    v.push_back(1);
+    v.push_back(2);
+    cout << "size = " << v.size() << endl;
+    cout << "capacity = " << v.capacity() << endl; // 2
+
+    v.push_back(3);
+    cout << "size = " << v.size() << endl;
+    cout << "capacity = " << v.capacity() << endl; // 2
+}
+*/
+
 int main()
 {
     vector<int> v;
@@ -54,7 +123,7 @@ int main()
     // vector<dt> v(size, value);
     // vector<dt> v(size);
     // If we again push element it auto incrases it size.
-    
+
     vector<int> v1(5, 100); // vector of size 5 initialized all with 100
     cout << v1.at(0) << endl;
     cout << v1[3] << endl;
