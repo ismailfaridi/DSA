@@ -9,6 +9,13 @@ Standard Template Library (STL)
 3. Functions
 4. Iterators
 -----------------------------------------
+
+Containers:
+1. Sequence Containers: A sequence organizes a finite set of objects, all of the same type, into a strictly linear arrangement.
+                        Vector, List, Deque
+2. Associative Containers: An associative container provide fast retrieval of data based on keys.
+                           Set(unique), Mutliset(duplicates), Map(unique), MultiMap(duplicates)
+3. Container Adapter: Stack, Queue, Priority Queue
 */
 
 // 🔥CONTAINERS🔥
@@ -142,6 +149,7 @@ Iterators in C++ is a pointer like object used to traverse and manipulate elemen
 - cend()	Constant iterator past the last element
 - crbegin()	Constant reverse iterator
 - crend()	Constant iterator before the first element
+- back()    Last element
 
 + Use for-each loop when you need simple iteration (read-only or modifying values).
 + Use iterators when you need fine control (removing elements, inserting, or skipping elements).
@@ -188,7 +196,6 @@ int main()
 */
 
 /*
-// REPEAT
 int main()
 {
     vector<int> v;
@@ -207,7 +214,7 @@ int main()
     cout << v1.at(0) << endl;
     cout << v1[3] << endl;
 
-    vector<int>v2(5); // vector of size 5 initialized all with 0
+    vector<int> v2(5); // vector of size 5 initialized all with 0
     cout << v2[4] << endl;
 
     vector<int> cp(v1); // copy
@@ -232,33 +239,56 @@ int main()
     cout << *(it) << endl;
 
     vector<int>::iterator it1 = vi.end(); // Point to after last index, so -- it before.
-    cout << *it1 <<endl;
+    cout << *it1 << endl;
     it1--;
-    cout << *it1 <<"\n\n";
+    cout << *it1 << "\n\n";
 
-    vector<int>::reverse_iterator it2 = vi.rend(); // reverse end
+    vector<int>::reverse_iterator it2 = vi.rend();   // reverse end
     vector<int>::reverse_iterator it3 = vi.rbegin(); // reverse begin
 
     cout << "Printing vector values\n";
 
     vector<int> vt = {10, 20, 30, 40, 50};
 
-    for (vector<int>::iterator it = vt.begin(); it != vt.end(); it++) {
+    for (vector<int>::iterator it = vt.begin(); it != vt.end(); it++)
+    {
         cout << *it << " ";
     }
 
     // automatically detect the type
-    for(auto it = vt.begin(); it != vt.end(); it++)
+    for (auto it = vt.begin(); it != vt.end(); it++)
     {
         cout << *it << " ";
     }
 
     // it take copy of value (not an address or reference)
     // for(auto& it : vt)
-    for(auto it : vt)
+    for (auto it : vt)
     {
         cout << it << " ";
     }
+    cout << endl;
+
+    vector<int> vv = {1, 2, 3};
+    vv.insert(vv.begin(), 0);
+    vv.insert(vv.begin() + 1, 2, 786); // insert two times 786. {0,1,786,786,2,3}
+
+    for (auto val : vv)
+        cout << val << " ";
+    cout << endl;
+
+    vector<int> copy(3,22); // size 3, all initialize to 22
+    vv.insert(vv.begin(), copy.begin(), copy.end()); // 3 times 22 inseted into vv vector
+
+    for (auto val : vv)
+        cout << val << " ";
+    cout << endl;
+
+    copy.swap(vv);
+    for (auto val : vv)
+        cout << val << " ";
+
+    vv.clear();
 }
 */
 
@@ -524,10 +554,11 @@ int main()
 - Lookup Complexity: O(1) avg, O(n) worst. So faster than map.
 - #include <unordered_map>
 
-
+------------------------------------------------------------------
 map: no duplicate keys, sorted, self balancing tree, O(log n)
 multimap: allow duplicate keys, sorted, red-black tree
 unordered map: no duplicate keys, unordered, hash table, O(1) avg.
+------------------------------------------------------------------
 */
 
 #include <map>
@@ -620,9 +651,11 @@ int main()
 - lower and upper bound doesn't exist of unordered set.
 - #include <unordered_set>
 
+---------------------------------------------
 set: unique elements, sorted
-multi set: allow duplicate elementes, sorted
+multi set: allow duplicate elements, sorted
 unordered set: unique elements, not sorted
+---------------------------------------------
 */
 
 #include <set>
