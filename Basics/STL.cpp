@@ -4,7 +4,7 @@ using namespace std;
 /*
 -----------------------------------------
 Standard Template Library (STL)
-1. Containers: Sequence(vector, list, deque), Non-Sequence(stack, queue, set), special(pair)
+1. Containers: Sequence(vector, list, deque), Non-Sequence(stack, queue, map, set), not a container(pair)
 2. Algorithm
 3. Functions
 4. Iterators
@@ -685,5 +685,186 @@ int main()
 
     for (auto val : us)
         cout << val << " ";
+}
+*/
+
+// --------------------------------------------------------------------------------------
+
+// 🔥ALGORITHMS🔥
+
+/*
+#include <algorithm>
+
+# Sorting
+- sort(arr, arr+n); // (start, after-the-last-location] {arr+n-1 is last location}
+- sort(arr, arr+n, greater<int>()); // sort in descending order. greater<int>() is a comparator/functor
+- sort(v.begin(), v.end());
+
+📌 Comparators
+Comparators are basically boolearn functions which return true/false based on upon some comparsion.
+*/
+
+#include <algorithm>
+/*
+bool comparator(pair<int, int> p1, pair<int, int> p2);
+bool comparator1(pair<int, int> p1, pair<int, int> p2);
+
+int main()
+{
+    int arr[5] = {4, 2, 3, 1, 5};
+    vector<int> vec = {4, 2, 3, 1, 5};
+
+    // Sorting in ascending order
+    sort(arr, arr + 5);
+    for (auto val : arr)
+        cout << val << " ";
+    cout << endl;
+
+    sort(vec.begin(), vec.end());
+    for (auto val : vec)
+        cout << val << " ";
+    cout << endl;
+
+    // Sorting in descending order
+    sort(arr, arr + 5, greater<int>());
+    for (auto val : arr)
+        cout << val << " ";
+    cout << endl;
+
+    sort(vec.begin(), vec.end(), greater<int>());
+    for (auto val : vec)
+        cout << val << " ";
+    cout << "\n\n";
+
+    vector<pair<int, int>> vp = {{3, 1}, {7, 0}, {2, 1}, {5, 8}, {1, 1}};
+
+    // sort(vp.begin(), vp.end()); // sort based on first value of pair
+    // for (auto p : vp)
+    //     cout << p.first << ", " << p.second << endl;
+    // cout << endl;
+
+    // to sort pair on second value, we need to define custom comparator
+    // # Custom Comparator
+    sort(vp.begin(), vp.end(), comparator); // passing our custom comparator
+    for (auto p : vp)
+        cout << p.first << ", " << p.second << endl;
+    cout << endl;
+
+    // adding condition: if second value is same, then we sort based on first value
+    sort(vp.begin(), vp.end(), comparator1);
+    for (auto p : vp)
+        cout << p.first << ", " << p.second << endl;
+}
+
+bool comparator(pair<int, int> p1, pair<int, int> p2)
+{
+    if (p1.second < p2.second)
+        return true;
+    else
+        return false;
+}
+
+bool comparator1(pair<int, int> p1, pair<int, int> p2)
+{
+    if (p1.second < p2.second)
+        return true;
+    if (p1.second > p2.second)
+        return false;
+
+    if (p1.first < p2.first)
+        return true;
+    else
+        return false;
+}
+*/
+
+/*
+# Reverse
+- reverse(v.begin(), v.end());
+
+# Next Permutation
+- A permutation is an arrangement of elements in a specific order. It refers to different ways in which a set of items can be ordered or arranged.
+- next_permutation(v.begin(), v.end());
+- prev_permutation(v.begin(), v.end());
+
+# Swap, Min, Max
+- swap(v1, v2);
+- min(v1, v2);
+- max(v1, v2);
+*/
+/*
+int main()
+{
+    int arr[5] = {1, 2, 3, 4, 5};
+    vector<int> vec = {1, 2, 3, 4, 5};
+
+    reverse(arr, arr + 5);
+    // reverse(vec.begin(), vec.end());
+    reverse(vec.begin(), vec.begin() + 3); // range. 4,5 not included
+
+    for (auto val : arr)
+        cout << val << " ";
+    cout << endl;
+
+    for (auto val : vec)
+        cout << val << " ";
+    cout << "\n\n";
+
+    string s = "abc";
+    next_permutation(s.begin(), s.end());
+    cout << s << endl;
+
+    prev_permutation(s.begin(), s.end());
+    cout << s << "\n\n";
+
+    vector<int> vi = {1, 2, 3};
+    do
+    {
+        for (auto num : vi)
+            cout << num << " ";
+        cout << endl;
+    } while (next_permutation(vi.begin(), vi.end()));
+    cout << "\n\n";
+
+    cout << max(4, 5) << endl;
+    cout << min(4, 1) << endl;
+
+    int a = 5, b = 10;
+    swap(a, b);
+    cout << "a=" << a << ", b=" << b;
+}
+*/
+
+/*
+# Max & Min Elements
+- max_element(v.begin(), v.end());
+- min_element(v.begin(), v.end());
+both return iterator.
+
+# Binary Search
+-  binary_search(v.begin(), v.end(), target);
+return 1 if target exist, otherwise 0.
+
+# Count Set Bits: count number of set bits (1s) in an Integer. (int n=15; 4 bytes, 32 bits, how much bits set to 1 for 15)
+- __builtin_popcount(); // int
+- __builtin_popcountl(); // long int
+- __builtin_popcountll(); // long long
+*/
+/*
+int main()
+{
+    vector<int> vec = {2, 1, 3, 4, 5};
+
+    cout << *(max_element(vec.begin(), vec.end())) << endl;
+    cout << *(min_element(vec.begin(), vec.end())) << endl;
+    cout << binary_search(vec.begin(), vec.end(), 4) << "\n\n";
+
+    int n=4;
+    long int ln = 4;
+    long long int ll = 4;
+
+    cout << __builtin_popcount(n) << endl;
+    cout << __builtin_popcountl(ln) << endl;
+    cout << __builtin_popcountll(ll) << endl;
 }
 */
