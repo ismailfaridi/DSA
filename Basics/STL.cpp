@@ -343,6 +343,7 @@ int main()
 # Pair
 - Pair is used to combine together two values that may be of same or different data types as a single unit.
 - It is the part of #include <utility> library.
+- first, second
 */
 
 // #include <utility> // no need to include
@@ -380,6 +381,8 @@ int main()
 - LIFO. Non-Sequential container.
 - #inlcude <stack>
 - Methods: push, emplace, top, pop, size, empty, swap
+
+TC: emplace, push, pop, front = O(1)
 */
 
 #include <stack>
@@ -421,27 +424,266 @@ int main()
 - FIFO. Non-Sequential container.
 - #include <queue>
 - Functions: push, emplace, front, pop, size, empty, swap
+
+TC: emplace, push, pop, front = O(1)
 */
 
 #include <queue>
+/*
+int main()
+{
+    queue<int> q;
+
+    q.push(1);
+    q.push(2);
+
+    while (!q.empty())
+    {
+
+        cout << q.front() << endl;
+        q.pop();
+    }
+
+    q.emplace(1);
+    q.emplace(2);
+
+    cout << "Size: " << q.size() << endl;
+
+    queue<int> qq;
+    qq.swap(q);
+    cout << "q size = " << q.size() << endl;
+    cout << "qq size = " << qq.size() << endl;
+}
+*/
 
 /*
 # Priority Queue
-- 
-- 
+- Internally is a max heap (by default) or min heap which are complete binary tree.
+- #include <queue>
 - Functions: push, emplace, top, pop, size, empty
+
+TC: emplace, push, pop = O(log n)
+TC: top() = O(1)
+*/
+
+// # include <queue>
+
+/*
+int main()
+{
+    priority_queue<int> pq; // max-heap (by default)
+    priority_queue<int, vector<int>, greater<int>> min_pq; // min-heap
+    // priority_queue<T, Container, Compare>
+
+    pq.push(10);
+    pq.push(20);
+    pq.push(5);
+
+    cout << "Size: " << pq.size() << endl;
+
+    while (!pq.empty())
+    {
+        cout << pq.top() << endl;
+        pq.pop();
+    }
+
+    min_pq.emplace(10);
+    min_pq.emplace(30);
+    min_pq.emplace(20);
+
+    while(!min_pq.empty())
+    {
+        cout << min_pq.top() << " ";
+        min_pq.pop();
+    }
+}
 */
 
 /*
 # Map
-- 
-- 
+- Map is used to store key-value pairs, in which key is unique. By default map automatically sort data in ascending order using key's.
+- #include <map>
 - Functions: insert, emplace, count, erase, find, size, empty, erase
+             first, second
+
++ count() the number of times specific key appears in map.
++ If find() found the key-value pair then it return Iterator, otherwise return m.end().
+
+
+# Multi Map
+- Allows to store multiple (duplicate) keys. Elements are sorted based on keys.
+- We don't able to use [], instead we use insert().
+- Internally implemented as balanced tree, e.g., Red-Black Tree.
+- Lookup Complexity: O(log n)
+- #inlcude <map>
+
+# Unordered Map
+- Store data in random order (not sorted), means data can be printed in any order.
+- Doesn't allow duplicate keys.
+- Internally implemented as Hash Table.
+- Lookup Complexity: O(1) avg, O(n) worst. So faster than map.
+- #include <unordered_map>
+
+
+map: no duplicate keys, sorted, self balancing tree, O(log n)
+multimap: allow duplicate keys, sorted, red-black tree
+unordered map: no duplicate keys, unordered, hash table, O(1) avg.
+*/
+
+#include <map>
+#include <unordered_map>
+/*
+int main()
+{
+    map<string, int> m;
+
+    m["tv"] = 50;
+    m["laptop"] = 100;
+    m["apple"] = 100;
+
+    m.insert({"camera", 10});
+    m.emplace("headphone", 55);
+
+    m["apple"] = 786; // replace the value
+
+    for (auto p : m)
+    {
+        cout << p.first << " " << p.second << endl;
+    }
+    // Note the sorting of keys
+
+    // Count the number of times specific key appears in map.
+    cout << "\ncount: " << m.count("tv") << endl;
+
+    cout << "Laptop = " << m["laptop"] << endl;
+    cout << "Is empty: " << m.empty() << endl;
+
+    m.erase("tv");
+    cout << "size: " << m.size() << endl;
+
+    // If find() found the key-value pair then it return Iterator, otherwise return m.end().
+    if (m.find("laptop") != m.end())
+        cout << "found";
+    else
+        cout << "not found";
+
+    cout << "\n\nMULTIMAP\n";
+
+    multimap<int, string> mm;
+    mm.insert({1, "Ismail"});
+    mm.insert({2, "Ibrahim"});
+    mm.insert({1, "Muhammad Ismail"});
+
+    mm.emplace(3, "Muhammad");
+
+    for (auto pr : mm)
+        cout << pr.first << ": " << pr.second << endl;
+
+    cout << "\nerase\n";
+    // mm.erase(1); // erase all instances
+    mm.erase(mm.find(1)); // find() will return iterator and which delete one instance
+
+    for (auto pr : mm)
+        cout << pr.first << ": " << pr.second << endl;
+
+    cout << "size: " << mm.size() << endl;
+
+    cout << "\nUNORDERED MAP\n";
+    unordered_map<int, string> um;
+
+    um[1] = "Apple";
+    um.insert({2, "Banana"});
+    um.emplace(3, "Orange");
+
+    for (auto p : um)
+        cout << p.first << ": " << p.second << endl;
+}
 */
 
 /*
 # Set
-- 
-- 
-- Functions: insert, emplace, count, erase, find, size, empty, erase
+- Set store unique elements in sorted order. Internally use Self Balancing tree.
+- #include <set>
+- Functions: insert, emplace, count, erase, find, size, empty, erase, lower_bound
+- insert, count, erase = O(log n)
+
++ lower_bound(x) return iterator if the x is found, otherwise return just one big value than x. If no big value exit then it return s.end().
++ upper_bound(x) return iterator to value greater than x. If no big value exit it return s.end().
+
+# Multi Set
+- Multi set allow duplicate elements. Internally implemented as Self Balancing BST.
+- Stored elements in sorted order.
+- #include <set>
+
+# Unordered Set
+- Unordered set store unique elements, which are not in sorted order. Internally implemented as Hash Table. O(1)
+- lower and upper bound doesn't exist of unordered set.
+- #include <unordered_set>
+
+set: unique elements, sorted
+multi set: allow duplicate elementes, sorted
+unordered set: unique elements, not sorted
+*/
+
+#include <set>
+#include <unordered_set>
+/*
+int main()
+{
+    set<int> s = {5, 2, 7, 6, 1};
+
+    s.insert(3);
+    s.emplace(4);
+
+    for (auto val : s)
+        cout << val << " ";
+
+    s.emplace(1); // set ignore duplicates. size is still same.
+    cout << "\nsize: " << s.size() << endl;
+
+    if (s.find(1) != s.end())
+        cout << "found";
+    else
+        cout << "not found";
+
+    s.erase(1);
+    cout << "\nsize: " << s.size();
+
+    cout << "\nis empty: " << s.empty();
+
+    s.emplace(10);
+
+    cout << "\nlower bound = " << *(s.lower_bound(7)); // lowerbound return iterator, so derefence
+    cout << "\nlower bound = " << *(s.lower_bound(8));
+
+    auto it = s.lower_bound(11); // s.end()
+    if (it != s.end())
+        cout << "\nlower bound = " << *it;
+    else
+        cout << "\nlower bound not found";
+
+    cout << "\nupper bound = " << *(s.upper_bound(3));
+    auto uit = s.upper_bound(11); // s.end()
+    if (uit != s.end())
+        cout << "\nupper bound = " << *uit;
+    else
+        cout << "\nupper bound not found";
+
+    // Other Set Types
+    cout << "\n\nMulti Set\n";
+    multiset<int> ms = {8, 2, 1}; // allow duplicate + sorted
+
+    ms.emplace(1);
+
+    for (auto val : ms)
+        cout << val << " ";
+
+    cout << "\n\nUnordered Set\n";
+    unordered_set<int> us = {8, 2, 1, 6}; // no duplicate + unsorted
+
+    ms.emplace(1); // ignored
+
+    for (auto val : us)
+        cout << val << " ";
+}
 */
