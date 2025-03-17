@@ -19,6 +19,7 @@ Array is static stored in stack at compile time, we can't increase it's size aft
 + capacity(): how many elements the vector can hold before it needs to reallocate additional memory. When capacity reaches it double (x2) it's capacity.
 */
 
+/*
 int main()
 {
     vector<int> vec;
@@ -50,3 +51,49 @@ int main()
     vec.pop_back();
     cout << "size: " << vec.size() << endl;
 }
+*/
+
+/*
+int linearSearch(const vector<int> &vec, int target)
+{
+    for (int i = 0; i < vec.size(); i++)
+    {
+        if (vec[i] == target)
+            return i;
+    }
+    return -1;
+}
+
+void reverseVector(vector<int> &vec)
+{
+    if (vec.empty()) return;
+    
+    // Two Pointer Approach
+    int start = 0;
+    int end = vec.size() - 1;
+
+    while (start < end)
+    {
+        swap(vec[start], vec[end]);
+        start++;
+        end--;
+    }
+}
+
+int main()
+{
+    vector<int> vec = {3, 4, 1, 2, 7, 6, 5, 9, 8};
+    int target = 5;
+
+    int index = linearSearch(vec, target);
+
+    if (index != -1)
+        cout << target << " is in the vector at index " << index << "." << endl;
+    else
+        cout << target << " isn't in the vector." << endl;
+
+    reverseVector(vec);
+    for(auto i : vec)
+        cout << i << " ";
+}
+*/

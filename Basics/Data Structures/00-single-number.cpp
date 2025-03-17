@@ -36,7 +36,7 @@ public:
     {
         int ans = 0;
         for (auto i : nums)
-            ans = ans ^ i;
+            ans ^= i;
         return ans;
     }
 };
