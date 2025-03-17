@@ -71,7 +71,7 @@ int dec_to_binary(int dec_num)
     while (dec_num > 0)
     {
         int remainder = dec_num % 2;
-        dec_num /= 2;
+        dec_num /= 2; // quotient
 
         ans += remainder * power;
         power *= 10;
