@@ -2,25 +2,6 @@
 using namespace std;
 
 /*
-Data Structures:
-
-- Primitive
-- Non-Primitive
-    - Linear
-        - Static
-            - Arrays
-        - Dynamic
-            - Vectors
-            - Linked List
-            - Stack
-            - Queue
-    - Non-Linear
-        - Tree
-        - Graph
-        - Table / Set
-*/
-
-/*
 # PATTERNS
 outer loop (rows): n times
 inner loop: what to print in single row

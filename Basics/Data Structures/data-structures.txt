@@ -1,0 +1,17 @@
+# Data Structures:
+
+- Primitive
+    - int, char, float, double, bool, *
+- Non-Primitive
+    - Linear
+        - Static
+            - Array
+        - Dynamic
+            - Vector
+            - Linked List
+            - Stack
+            - Queue
+    - Non-Linear (Hierarchical)
+        - Tree
+        - Graph
+        - Table / Set
