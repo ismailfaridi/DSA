@@ -3,12 +3,13 @@
 using namespace std;
 
 /*
-53. Maximum Subarray
+53. Maximum Subarray Sum
 https://leetcode.com/submissions/detail/1577733882/
 Given an integer array nums, find the subarray with the largest sum, and return its sum.
 
 # Kadane's Algorithm
-Instead of adding -ve numbers in the current sum, we can ignore the -ve because it doesn't adding up in the final answer. So we will focus on only positive numbers, and if we got negative numbers then we reset the current sum to 0.
+- Instead of adding -ve numbers in the current sum, we can ignore the -ve because it doesn't adding up in the final answer. So we will focus on only positive numbers, and if we got negative numbers then we reset the current sum to 0.
+- DP algorithm, also has some characteristics of Greedy.
 */
 
 // Print all subarray O(n^3)
