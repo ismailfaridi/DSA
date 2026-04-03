@@ -17,10 +17,19 @@ Playlists:
 | ------- |
 | [0058-length-of-last-word](https://github.com/ismailfaridi/DSA/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/ismailfaridi/DSA/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/ismailfaridi/DSA/tree/master/0242-valid-anagram) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ismailfaridi/DSA/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0686-repeated-string-match](https://github.com/ismailfaridi/DSA/tree/master/0686-repeated-string-match) |
 ## String Matching
 |  |
 | ------- |
 | [0686-repeated-string-match](https://github.com/ismailfaridi/DSA/tree/master/0686-repeated-string-match) |
+## Hash Table
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/ismailfaridi/DSA/tree/master/0242-valid-anagram) |
+## Sorting
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/ismailfaridi/DSA/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
