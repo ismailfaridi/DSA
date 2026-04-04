@@ -21,6 +21,7 @@ Playlists:
 | [0242-valid-anagram](https://github.com/ismailfaridi/DSA/tree/master/0242-valid-anagram) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ismailfaridi/DSA/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0686-repeated-string-match](https://github.com/ismailfaridi/DSA/tree/master/0686-repeated-string-match) |
+| [2032-largest-odd-number-in-string](https://github.com/ismailfaridi/DSA/tree/master/2032-largest-odd-number-in-string) |
 ## String Matching
 |  |
 | ------- |
@@ -41,4 +42,12 @@ Playlists:
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ismailfaridi/DSA/tree/master/0014-longest-common-prefix) |
+## Math
+|  |
+| ------- |
+| [2032-largest-odd-number-in-string](https://github.com/ismailfaridi/DSA/tree/master/2032-largest-odd-number-in-string) |
+## Greedy
+|  |
+| ------- |
+| [2032-largest-odd-number-in-string](https://github.com/ismailfaridi/DSA/tree/master/2032-largest-odd-number-in-string) |
 <!---LeetCode Topics End-->
