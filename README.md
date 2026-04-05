@@ -39,6 +39,7 @@ Playlists:
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ismailfaridi/DSA/tree/master/0014-longest-common-prefix) |
 | [0035-search-insert-position](https://github.com/ismailfaridi/DSA/tree/master/0035-search-insert-position) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/ismailfaridi/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Trie
 |  |
 | ------- |
