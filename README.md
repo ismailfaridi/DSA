@@ -38,6 +38,7 @@ Playlists:
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ismailfaridi/DSA/tree/master/0014-longest-common-prefix) |
+| [0035-search-insert-position](https://github.com/ismailfaridi/DSA/tree/master/0035-search-insert-position) |
 ## Trie
 |  |
 | ------- |
@@ -50,4 +51,8 @@ Playlists:
 |  |
 | ------- |
 | [2032-largest-odd-number-in-string](https://github.com/ismailfaridi/DSA/tree/master/2032-largest-odd-number-in-string) |
+## Binary Search
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/ismailfaridi/DSA/tree/master/0035-search-insert-position) |
 <!---LeetCode Topics End-->
