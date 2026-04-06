@@ -12,6 +12,7 @@ Playlists:
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ismailfaridi/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/ismailfaridi/DSA/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ismailfaridi/DSA/tree/master/0557-reverse-words-in-a-string-iii) |
 ## String
 |  |
@@ -41,6 +42,7 @@ Playlists:
 | [0014-longest-common-prefix](https://github.com/ismailfaridi/DSA/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ismailfaridi/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0035-search-insert-position](https://github.com/ismailfaridi/DSA/tree/master/0035-search-insert-position) |
+| [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ismailfaridi/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Trie
 |  |
@@ -49,6 +51,7 @@ Playlists:
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [2032-largest-odd-number-in-string](https://github.com/ismailfaridi/DSA/tree/master/2032-largest-odd-number-in-string) |
 ## Greedy
 |  |
