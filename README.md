@@ -51,6 +51,7 @@ Playlists:
 | [0075-sort-colors](https://github.com/ismailfaridi/DSA/tree/master/0075-sort-colors) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ismailfaridi/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
+| [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ismailfaridi/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Trie
 |  |
@@ -70,6 +71,7 @@ Playlists:
 | ------- |
 | [0035-search-insert-position](https://github.com/ismailfaridi/DSA/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ismailfaridi/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -78,4 +80,12 @@ Playlists:
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ismailfaridi/DSA/tree/master/0053-maximum-subarray) |
+## Sliding Window
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
+## Prefix Sum
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
