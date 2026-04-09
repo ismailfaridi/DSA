@@ -17,6 +17,7 @@ Playlists:
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ismailfaridi/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ismailfaridi/DSA/tree/master/0557-reverse-words-in-a-string-iii) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/ismailfaridi/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
 |  |
 | ------- |
@@ -53,6 +54,7 @@ Playlists:
 | [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ismailfaridi/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/ismailfaridi/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Trie
 |  |
 | ------- |
@@ -88,4 +90,8 @@ Playlists:
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
+## Simulation
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/ismailfaridi/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
