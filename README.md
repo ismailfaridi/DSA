@@ -35,6 +35,7 @@ Playlists:
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ismailfaridi/DSA/tree/master/0001-two-sum) |
 | [0242-valid-anagram](https://github.com/ismailfaridi/DSA/tree/master/0242-valid-anagram) |
 ## Sorting
 |  |
@@ -44,6 +45,7 @@ Playlists:
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ismailfaridi/DSA/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/ismailfaridi/DSA/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ismailfaridi/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/ismailfaridi/DSA/tree/master/0031-next-permutation) |
