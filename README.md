@@ -82,6 +82,7 @@ Playlists:
 | ------- |
 | [0035-search-insert-position](https://github.com/ismailfaridi/DSA/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ismailfaridi/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0278-first-bad-version](https://github.com/ismailfaridi/DSA/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/ismailfaridi/DSA/tree/master/0374-guess-number-higher-or-lower) |
 | [0792-binary-search](https://github.com/ismailfaridi/DSA/tree/master/0792-binary-search) |
 | [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
@@ -117,5 +118,6 @@ Playlists:
 ## Interactive
 |  |
 | ------- |
+| [0278-first-bad-version](https://github.com/ismailfaridi/DSA/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/ismailfaridi/DSA/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
