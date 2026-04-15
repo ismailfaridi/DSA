@@ -82,6 +82,7 @@ Playlists:
 | ------- |
 | [0035-search-insert-position](https://github.com/ismailfaridi/DSA/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ismailfaridi/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0374-guess-number-higher-or-lower](https://github.com/ismailfaridi/DSA/tree/master/0374-guess-number-higher-or-lower) |
 | [0792-binary-search](https://github.com/ismailfaridi/DSA/tree/master/0792-binary-search) |
 | [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Divide and Conquer
@@ -113,4 +114,8 @@ Playlists:
 | ------- |
 | [0048-rotate-image](https://github.com/ismailfaridi/DSA/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/ismailfaridi/DSA/tree/master/0073-set-matrix-zeroes) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/ismailfaridi/DSA/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
