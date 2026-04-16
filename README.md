@@ -54,6 +54,7 @@ Playlists:
 | [0035-search-insert-position](https://github.com/ismailfaridi/DSA/tree/master/0035-search-insert-position) |
 | [0048-rotate-image](https://github.com/ismailfaridi/DSA/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/ismailfaridi/DSA/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/ismailfaridi/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ismailfaridi/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/ismailfaridi/DSA/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/ismailfaridi/DSA/tree/master/0128-longest-consecutive-sequence) |
@@ -105,6 +106,7 @@ Playlists:
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/ismailfaridi/DSA/tree/master/0054-spiral-matrix) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ismailfaridi/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Union-Find
 |  |
@@ -114,6 +116,7 @@ Playlists:
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ismailfaridi/DSA/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/ismailfaridi/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ismailfaridi/DSA/tree/master/0073-set-matrix-zeroes) |
 ## Interactive
 |  |
