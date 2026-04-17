@@ -61,6 +61,7 @@ Playlists:
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ismailfaridi/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [0792-binary-search](https://github.com/ismailfaridi/DSA/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/ismailfaridi/DSA/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ismailfaridi/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ismailfaridi/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -86,6 +87,7 @@ Playlists:
 | [0278-first-bad-version](https://github.com/ismailfaridi/DSA/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/ismailfaridi/DSA/tree/master/0374-guess-number-higher-or-lower) |
 | [0792-binary-search](https://github.com/ismailfaridi/DSA/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/ismailfaridi/DSA/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
 ## Divide and Conquer
 |  |
