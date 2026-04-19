@@ -48,6 +48,7 @@ Playlists:
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ismailfaridi/DSA/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/ismailfaridi/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/ismailfaridi/DSA/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ismailfaridi/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/ismailfaridi/DSA/tree/master/0031-next-permutation) |
@@ -82,6 +83,7 @@ Playlists:
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/ismailfaridi/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0035-search-insert-position](https://github.com/ismailfaridi/DSA/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ismailfaridi/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0278-first-bad-version](https://github.com/ismailfaridi/DSA/tree/master/0278-first-bad-version) |
@@ -92,6 +94,7 @@ Playlists:
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/ismailfaridi/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/ismailfaridi/DSA/tree/master/0053-maximum-subarray) |
 ## Dynamic Programming
 |  |
