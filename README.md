@@ -17,6 +17,7 @@ Playlists:
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ismailfaridi/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ismailfaridi/DSA/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0908-middle-of-the-linked-list](https://github.com/ismailfaridi/DSA/tree/master/0908-middle-of-the-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ismailfaridi/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
 |  |
@@ -128,4 +129,8 @@ Playlists:
 | ------- |
 | [0278-first-bad-version](https://github.com/ismailfaridi/DSA/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/ismailfaridi/DSA/tree/master/0374-guess-number-higher-or-lower) |
+## Linked List
+|  |
+| ------- |
+| [0908-middle-of-the-linked-list](https://github.com/ismailfaridi/DSA/tree/master/0908-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
