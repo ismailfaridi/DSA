@@ -15,6 +15,7 @@ Playlists:
 | [0075-sort-colors](https://github.com/ismailfaridi/DSA/tree/master/0075-sort-colors) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/ismailfaridi/DSA/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0125-valid-palindrome](https://github.com/ismailfaridi/DSA/tree/master/0125-valid-palindrome) |
+| [0141-linked-list-cycle](https://github.com/ismailfaridi/DSA/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ismailfaridi/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ismailfaridi/DSA/tree/master/0557-reverse-words-in-a-string-iii) |
@@ -40,6 +41,7 @@ Playlists:
 | [0001-two-sum](https://github.com/ismailfaridi/DSA/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/ismailfaridi/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/ismailfaridi/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0141-linked-list-cycle](https://github.com/ismailfaridi/DSA/tree/master/0141-linked-list-cycle) |
 | [0242-valid-anagram](https://github.com/ismailfaridi/DSA/tree/master/0242-valid-anagram) |
 ## Sorting
 |  |
@@ -135,6 +137,7 @@ Playlists:
 | ------- |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/ismailfaridi/DSA/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/ismailfaridi/DSA/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0141-linked-list-cycle](https://github.com/ismailfaridi/DSA/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/ismailfaridi/DSA/tree/master/0206-reverse-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/ismailfaridi/DSA/tree/master/0908-middle-of-the-linked-list) |
 ## Recursion
