@@ -10,6 +10,7 @@ Playlists:
 ## Two Pointers
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/ismailfaridi/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ismailfaridi/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/ismailfaridi/DSA/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/ismailfaridi/DSA/tree/master/0075-sort-colors) |
@@ -138,6 +139,7 @@ Playlists:
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/ismailfaridi/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/ismailfaridi/DSA/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/ismailfaridi/DSA/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0141-linked-list-cycle](https://github.com/ismailfaridi/DSA/tree/master/0141-linked-list-cycle) |
