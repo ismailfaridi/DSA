@@ -82,6 +82,7 @@ Playlists:
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ismailfaridi/DSA/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/ismailfaridi/DSA/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [2032-largest-odd-number-in-string](https://github.com/ismailfaridi/DSA/tree/master/2032-largest-odd-number-in-string) |
@@ -140,6 +141,7 @@ Playlists:
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ismailfaridi/DSA/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ismailfaridi/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/ismailfaridi/DSA/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/ismailfaridi/DSA/tree/master/0083-remove-duplicates-from-sorted-list) |
@@ -153,6 +155,7 @@ Playlists:
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ismailfaridi/DSA/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/ismailfaridi/DSA/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/ismailfaridi/DSA/tree/master/0234-palindrome-linked-list) |
 ## Stack
