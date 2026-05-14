@@ -69,6 +69,7 @@ Playlists:
 | [0073-set-matrix-zeroes](https://github.com/ismailfaridi/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/ismailfaridi/DSA/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/ismailfaridi/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ismailfaridi/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ismailfaridi/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [0792-binary-search](https://github.com/ismailfaridi/DSA/tree/master/0792-binary-search) |
@@ -85,6 +86,7 @@ Playlists:
 | ------- |
 | [0002-add-two-numbers](https://github.com/ismailfaridi/DSA/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/ismailfaridi/DSA/tree/master/0048-rotate-image) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ismailfaridi/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/ismailfaridi/DSA/tree/master/0189-rotate-array) |
 | [2032-largest-odd-number-in-string](https://github.com/ismailfaridi/DSA/tree/master/2032-largest-odd-number-in-string) |
 ## Greedy
@@ -167,5 +169,6 @@ Playlists:
 ## Stack
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ismailfaridi/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/ismailfaridi/DSA/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
