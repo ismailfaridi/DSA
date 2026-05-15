@@ -75,6 +75,7 @@ Playlists:
 | [0682-baseball-game](https://github.com/ismailfaridi/DSA/tree/master/0682-baseball-game) |
 | [0792-binary-search](https://github.com/ismailfaridi/DSA/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/ismailfaridi/DSA/tree/master/0907-koko-eating-bananas) |
+| [0983-validate-stack-sequences](https://github.com/ismailfaridi/DSA/tree/master/0983-validate-stack-sequences) |
 | [1046-max-consecutive-ones-iii](https://github.com/ismailfaridi/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/ismailfaridi/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ismailfaridi/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -127,6 +128,7 @@ Playlists:
 | ------- |
 | [0054-spiral-matrix](https://github.com/ismailfaridi/DSA/tree/master/0054-spiral-matrix) |
 | [0682-baseball-game](https://github.com/ismailfaridi/DSA/tree/master/0682-baseball-game) |
+| [0983-validate-stack-sequences](https://github.com/ismailfaridi/DSA/tree/master/0983-validate-stack-sequences) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ismailfaridi/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Union-Find
 |  |
@@ -174,4 +176,5 @@ Playlists:
 | [0150-evaluate-reverse-polish-notation](https://github.com/ismailfaridi/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/ismailfaridi/DSA/tree/master/0234-palindrome-linked-list) |
 | [0682-baseball-game](https://github.com/ismailfaridi/DSA/tree/master/0682-baseball-game) |
+| [0983-validate-stack-sequences](https://github.com/ismailfaridi/DSA/tree/master/0983-validate-stack-sequences) |
 <!---LeetCode Topics End-->
